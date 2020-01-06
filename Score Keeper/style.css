@@ -1,0 +1,61 @@
+.container{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score{
+    border: .1rem rgb(90, 10, 136) solid;
+    padding: 1rem;
+    box-shadow: .3rem .2rem .2rem rgba(90, 10, 136, .3);
+    width: 15rem;
+}
+
+h1,
+p{
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+input{
+    position: relative;
+    margin-bottom: 1rem;
+    margin-left: 1.3rem;
+    background-color: blueviolet;
+    border: .1rem blueviolet solid;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: .1rem rgb(90, 10, 136) solid;
+    padding: .1rem 1rem;
+    cursor: pointer;
+}
+
+button:nth-of-type(1){
+    background-color: aqua;
+}
+
+button:nth-of-type(2){
+    background-color: rgb(231, 20, 185);
+}
+
+.winner{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
