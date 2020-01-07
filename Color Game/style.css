@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .1rem black solid;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27rem;
+    margin-right: 32rem;
+    padding: 0;
+}
+
+.header > *{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+}
+
+.header h1{
+    font-size: 2rem;
+}
+
+.level{
+    display: flex;
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 27rem;
+    background-color: #000000;
+    
+}
+
+.square{
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    border: .1rem black solid;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.easy,
+.hard,
+.new-color{
+    margin: 0rem 1rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+}
+
+.new-content{
+    margin: .1rem 1rem;
+}
