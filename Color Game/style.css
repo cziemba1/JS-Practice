@@ -63,8 +63,7 @@ body{
     transition: background-color .6s;
 }
 
-.easy,
-.hard,
+.mode,
 .reset{
     margin: 0rem 2rem;
     text-transform: uppercase;
@@ -76,8 +75,7 @@ body{
     transition: all .3s;
 }
 
-.easy:hover,
-.hard:hover,
+.mode:hover,
 .reset:hover{
     background-color: #567ef7;
     color: white;
