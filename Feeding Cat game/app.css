@@ -1,0 +1,13 @@
+#cat {
+	width: 500px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#food{
+	width: 50px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
